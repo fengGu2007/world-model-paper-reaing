@@ -58,7 +58,8 @@
 
 ## 三、两阶段训练流程  
 
-> 之所以要 co-train：Dynamics Model 需要动作作为输入，而 LAM 需要一个学习信号来定义"什么算有意义的动作"。
+> 1.Video tokenizer 2.Dynamics Model && LAM cotrain   
+>之所以要 co-train：Dynamics Model 需要动作作为输入，而 LAM 需要一个学习信号来定义"什么算有意义的动作"。
 
 ---
 
